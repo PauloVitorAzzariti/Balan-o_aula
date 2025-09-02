@@ -190,10 +190,10 @@
         <p>Exemplo didático (mBlock / pseudocódigo):</p>
         <pre class="code">when Arduino starts up
   repetir 15
-    definir ângulo do pino do servo 8 como 0
+    definir ângulo do pino do servo 8 como 50
     esperar 0.5 segundos
-    definir ângulo do pino do servo 8 como 180
-    esperar 0.5 segundos</pre>
+    definir ângulo do pino do servo 8 como 90
+    esperar 0.3 segundos</pre>
 
         <p>Use esse modo quando quer limitar o tempo de movimento (ex.: teste controlado, economizar bateria).</p>
 
@@ -206,10 +206,10 @@
         <p>Exemplo (mBlock / pseudocódigo):</p>
         <pre class="code">when Arduino starts up
   para sempre
-    definir ângulo do pino do servo 8 como 0
+    definir ângulo do pino do servo 8 como 50
     esperar 0.5 segundos
-    definir ângulo do pino do servo 8 como 180
-    esperar 0.5 segundos</pre>
+    definir ângulo do pino do servo 8 como 90
+    esperar 0.3 segundos</pre>
 
         <p>Esse modo é usado para movimentos contínuos (ex.: ventiladores, mecanismos que funcionam sem interrupção).</p>
         <div class="note">No projeto real, lembre que laços infinitos requerem modos de parada seguros e considerações de consumo.</div>
@@ -421,3 +421,4 @@
 </script>
 </body>
 </html>
+
